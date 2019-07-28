@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!---Standard HTML starting point------>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Ashutosh">
+
+      <title>Ashutosh Bhattarai</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<!--Catefories that are going to be on TOP RIGHT of website---->
+<div class="row">
+        <ul class="navigation" role="navigation">
+          <!---for future reference pull-right will move to the right------>
+          <li class="pull-right"><a href="#contact">Contact</a></li>
+          <li class="pull-right"><a href="#projects">Projects</a></li>
+          <!----Might add an about me later--->
+
+        </ul>
+
+<div class="header">
+  <h1>Hello, I'm Osh</h1>
+</div>
+
+
+    </div>
