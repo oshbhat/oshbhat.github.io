@@ -50,8 +50,28 @@ this part is for the PROJECT and CONTACT "tabs" in upper right hand corner
   font-size: 1.1em;
 }
 
+/*Want some sort of border/ underline when hovering over button/TABS*/
 .navigation li a:hover{
   border: 1px solid #5a5d7a;
 
 }
 /*----------TAB BARS END--------------*/
+
+
+.logo img
+{
+  width: 10vw;
+  height: auto;
+  float: left;
+  padding: 15px 30px;
+  border-radius: 50%;
+}
+
+/*-------TYPE WRITER ANIMATION starts here-----------*/
+.header h1 {
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+  color: rgba(116,127,224,.65);
+  padding-left: 15vw;
+  border-right: .15em solid white;
+  transform: translateY(29vh);
+  font-size: 4.5em;
