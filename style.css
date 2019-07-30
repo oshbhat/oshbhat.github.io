@@ -1,0 +1,211 @@
+
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*----BACKGROUND STARTS HERE---*/
+body
+{
+  background-color: #f6f9fc;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+/*----BACKGROUND ENDS------*/
+
+/*----Navigation STARTS------*/
+.TABS {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  padding-right: 7vw;
+  width: 100%;
+}
+
+.navigation li{
+  float: right;
+  display: inline-block;
+}
+
+/*tab colors*/
+.navigation li a{
+  display: block;
+  color: #5a5d7a;
+  text-align: center;
+  /*Gets rid of underline */
+  text-decoration: none;
+  padding: 1vw 3vh;
+  font-family:sans-serif;
+  font-size: 1.1em;
+}
+
+/*BORDER WHEN HOVERING OVER TABS*/
+.navigation li a:hover{
+  border: 1px solid #5a5d7a;
+
+}
+/*----Navigation ENDS------*/
+
+.logo img
+{
+  width: 10vw;
+  height: auto;
+  float: left;
+  padding: 15px 30px;
+  border-radius: 50%;
+}
+
+/*---TYPEWRITER STARTS---------*/
+.headerMessage h1 {
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+  color: rgba(116,127,224,.65);
+  padding-left: 15vw;
+  border-right: .15em solid white;
+  transform: translateY(29vh);
+  font-size: 4vw;
+
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  /*Bar that follows as letter is being typed*/
+  animation: typing 4s steps(50, end),
+			 blink-caret 1s step-end infinite;
+}
+
+/*animation part for typewriter*/
+@keyframes typing{
+  from {max-width: 0}
+  to {max-width: 100%}
+}
+
+@keyframes blink-caret{
+  from, to {border-color: transparent}
+  50% {border-color: rgba(116,127,224,.65)}
+}
+/*---TYPEWRITER ENDS---------*/
+
+/*---INTRO STARTS---------*/
+
+.introduction{
+  line-height: 1.5em;
+  transform: translateY(39vh);
+  color: #5a5d7a;
+  font-family:sans-serif;
+  font-size: 1.25em;
+  word-wrap: break-word;
+  width: 70%;
+  padding-left: 15vw;
+}
+/*---INTRO ENDS---------*/
+
+/*---PROJECT SECTION STARTS---------*/
+
+#projects{
+  transform: translateY(65vh);
+  text-align: center;
+  color: #5a5d7a;
+  padding-bottom: 25%;
+  font-family: sans-serif;
+  font-size: 1.6em;
+  text-decoration: underline #5a5d7a;
+  padding-bottom: 25px;
+  text-underline-position: under;
+
+}
+
+/*---PROJECT 1 SECTION STARTS---------*/
+
+.project1{
+  background: #f6f9fc no-repeat 14vw;
+  filter: drop-shadow(0 0 5px #333);
+  border-radius: 2px;
+  padding: 1.5%;
+  transform: translateY(65vh);
+  width: 75;
+  padding-left: 10vw
+}
+
+.project1TextHeader{
+  font-family: sans-serif;
+  font-size: 1.8em;
+  color: #5a5d7a;
+  padding-left: 5vw;
+  padding-top: 2vh;
+  width: 50%;
+}
+
+.container1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project1Text{
+  line-height: 1.5em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  color: #5a5d7a;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  word-wrap: break-word;
+  width: 49%;
+  max-width: 100%;
+}
+
+.project1Text li{
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  display: inline-block;
+  padding: 1vh 1vw;
+  transform: translateX(-2vh);
+  border: 2px solid Violet;
+  border-radius: 25px;
+
+}
+.project1Links{
+  font-family: sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding-top: 6vh;
+  padding-left: 9vw;
+  text-align: center;
+}
+
+.project1Links a{
+  color: #5a5d7a;
+  text-decoration: none;
+  display: ;
+  margin: 10px;
+  padding: 1vh 1vw;
+  border: 2px solid Indigo;
+  border-radius: 25px;
+}
+
+.project1Links a:hover{
+  color: Purple;
+}
+
+/*---PROJECT 1 SECTION ENDS---------*/
+
+/*-------SECOND PROJECT CSS STARTS-----*/
+.project2{
+  background: url(aboutMeBackground.jpg) no-repeat 14vw;
+  background-size: cover;
+  filter: drop-shadow(0 0 5px #333);
+  border-radius: 25px;
+  padding: 1.5%;
+  transform: translateY(67vh);
+  width: 70%;
+  padding-left: 15vw
+}
