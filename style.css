@@ -112,19 +112,18 @@ body
 
 /*Box around about me*/
 .aboutMeContainer{
-  background: #f6f9fc ;
+  background: url(background.jpg) no-repeat 14vw;
+  background-size: cover;
   filter: drop-shadow(0 0 5px #333);
-  border-radius: 25px;
-  padding: 1.2%;
-  overflow: hidden;
+  padding: 1.5%;
   transform: translateY(52vh);
-  line-height: 1.2em;
+  line-height: 1.3em;
   color: #5a5d7a;
-  font-family: sans-serif;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
   font-size: 1.2em;
   word-wrap: break-word;
   width: 70%;
-  padding-left: 10vw;
+  padding-left: 15vw
 }
 
 /*Resume and links*/
@@ -156,9 +155,9 @@ body
 
 /*---PROJECT 1 SECTION STARTS---------*/
 .project1{
-  background: #f6f9fc no-repeat 14vw;
+  background: url(background.jpg) no-repeat 14vw;
+  background-size: cover;
   filter: drop-shadow(0 0 5px #333);
-  border-radius: 25px;
   padding: 1.5%;
   transform: translateY(67vh);
   width: 70%;
@@ -234,13 +233,13 @@ body
 
 /*---PROJECT 2 SECTION STARTS---------*/
 .project2{
-  background: #f6f9fc no-repeat 14vw;
-  filter: drop-shadow(0 0 5px #333);
-  border-radius: 25px;
-  padding: 1.5%;
-  transform: translateY(75vh);
-  width: 70%;
-  padding-left: 15vw
+    background: url(background.jpg) no-repeat 14vw;
+    background-size: cover;
+    filter: drop-shadow(0 0 5px #333);
+    padding: 1.5%;
+    transform: translateY(75vh);
+    width: 70%;
+    padding-left: 15vw
 }
 
 /*Project Title Text*/
@@ -311,13 +310,14 @@ body
 
 /*---PROJECT 3 SECTION STARTS---------*/
 .project3{
-  background: #f6f9fc no-repeat 14vw;
-  filter: drop-shadow(0 0 5px #333);
-  border-radius: 25px;
-  padding: 1.5%;
-  transform: translateY(85vh);
-  width: 70%;
-  padding-left: 15vw
+    background: url(background.jpg) no-repeat 14vw;
+    background-size: cover;
+    filter: drop-shadow(0 0 5px #333);
+    padding: 1.5%;
+    transform: translateY(85vh);
+    width: 70%;
+    padding-left: 15vw
+
 }
 
 /*Project Title Text*/
@@ -355,7 +355,6 @@ body
   margin: 5px;
   display: inline-block;
   padding: 1vh 1vw;
-  transform: translateX(-2vh);
   border: 2px solid Violet;
   border-radius: 25px;
 
@@ -390,9 +389,9 @@ body
 
 /*---PROJECT 4 SECTION STARTS---------*/
 .project4{
-  background: #f6f9fc no-repeat 14vw;
+  background: url(background.jpg) no-repeat 14vw;
+  background-size: cover;
   filter: drop-shadow(0 0 5px #333);
-  border-radius: 25px;
   padding: 1.5%;
   transform: translateY(95vh);
   width: 70%;
@@ -469,7 +468,7 @@ body
 
 /*---PROJECT 4 SECTION ENDS---------*/
 
-
+/*---CONTACT INFO SECTION STARTS---------*/
 #contact{
   transform: translateY(100vh);
   text-align: center;
@@ -501,3 +500,4 @@ body
 .contactInfo a:hover{
   color: DeepSkyBlue;
 }
+/*---CONTACT INFO SECTION ENDS---------*/
