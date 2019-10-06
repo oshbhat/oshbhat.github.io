@@ -308,16 +308,16 @@ body
 
 /*---PROJECT 2 SECTION ENDS---------*/
 
+
 /*---PROJECT 3 SECTION STARTS---------*/
 .project3{
     background: url(background.jpg) no-repeat 14vw;
     background-size: cover;
     filter: drop-shadow(0 0 5px #333);
     padding: 1.5%;
-    transform: translateY(85vh);
+    transform: translateY(75vh);
     width: 70%;
     padding-left: 15vw
-
 }
 
 /*Project Title Text*/
@@ -387,15 +387,17 @@ body
 /*---PROJECT 3 SECTION ENDS---------*/
 
 
+
 /*---PROJECT 4 SECTION STARTS---------*/
 .project4{
-  background: url(background.jpg) no-repeat 14vw;
-  background-size: cover;
-  filter: drop-shadow(0 0 5px #333);
-  padding: 1.5%;
-  transform: translateY(95vh);
-  width: 70%;
-  padding-left: 15vw
+    background: url(background.jpg) no-repeat 14vw;
+    background-size: cover;
+    filter: drop-shadow(0 0 5px #333);
+    padding: 1.5%;
+    transform: translateY(85vh);
+    width: 70%;
+    padding-left: 15vw
+
 }
 
 /*Project Title Text*/
@@ -433,10 +435,6 @@ body
   margin: 5px;
   display: inline-block;
   padding: 1vh 1vw;
-
-
-
-
   border: 2px solid Violet;
   border-radius: 25px;
 
@@ -467,6 +465,88 @@ body
 }
 
 /*---PROJECT 4 SECTION ENDS---------*/
+
+
+/*---PROJECT 5 SECTION STARTS---------*/
+.project5{
+  background: url(background.jpg) no-repeat 14vw;
+  background-size: cover;
+  filter: drop-shadow(0 0 5px #333);
+  padding: 1.5%;
+  transform: translateY(95vh);
+  width: 70%;
+  padding-left: 15vw
+}
+
+/*Project Title Text*/
+.project5TextHeader{
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-size: 1.8em;
+  color: #5a5d7a;
+  padding-left: 5vw;
+  padding-top: 2vh;
+  width: 50%;
+}
+
+/*Takes care of mobile view*/
+.container5{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*Text for skills*/
+.project5Text{
+  line-height: 1.5em;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-size: 1.3em;
+  color: #5a5d7a;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  word-wrap: break-word;
+  width: 50%;
+  max-width: 100%;
+}
+/*Border for skills*/
+.project5Text li{
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  display: inline-block;
+  padding: 1vh 1vw;
+
+
+
+
+  border: 2px solid Violet;
+  border-radius: 25px;
+
+}
+/*Text for links*/
+.project5Links{
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding-top: 2vh;
+  padding-left: 9vw;
+  text-align: center;
+}
+
+/*Border around links*/
+.project5Links a{
+  color: #5a5d7a;
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+  padding: 1vh 1vw;
+  border: 2px solid Indigo;
+  border-radius: 25px;
+}
+/*Color when hovering hover links*/
+.project5Links a:hover{
+  color: Purple;
+}
+
+/*---PROJECT 5 SECTION ENDS---------*/
 
 /*---CONTACT INFO SECTION STARTS---------*/
 #contact{
