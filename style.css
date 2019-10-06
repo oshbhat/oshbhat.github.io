@@ -308,16 +308,16 @@ body
 
 /*---PROJECT 2 SECTION ENDS---------*/
 
-
 /*---PROJECT 3 SECTION STARTS---------*/
 .project3{
     background: url(background.jpg) no-repeat 14vw;
     background-size: cover;
     filter: drop-shadow(0 0 5px #333);
     padding: 1.5%;
-    transform: translateY(75vh);
+    transform: translateY(85vh);
     width: 70%;
     padding-left: 15vw
+
 }
 
 /*Project Title Text*/
@@ -387,17 +387,15 @@ body
 /*---PROJECT 3 SECTION ENDS---------*/
 
 
-
 /*---PROJECT 4 SECTION STARTS---------*/
 .project4{
-    background: url(background.jpg) no-repeat 14vw;
-    background-size: cover;
-    filter: drop-shadow(0 0 5px #333);
-    padding: 1.5%;
-    transform: translateY(85vh);
-    width: 70%;
-    padding-left: 15vw
-
+  background: url(background.jpg) no-repeat 14vw;
+  background-size: cover;
+  filter: drop-shadow(0 0 5px #333);
+  padding: 1.5%;
+  transform: translateY(95vh);
+  width: 70%;
+  padding-left: 15vw
 }
 
 /*Project Title Text*/
@@ -435,6 +433,10 @@ body
   margin: 5px;
   display: inline-block;
   padding: 1vh 1vw;
+
+
+
+
   border: 2px solid Violet;
   border-radius: 25px;
 
@@ -465,9 +467,6 @@ body
 }
 
 /*---PROJECT 4 SECTION ENDS---------*/
-
-
-
 
 /*---CONTACT INFO SECTION STARTS---------*/
 #contact{
